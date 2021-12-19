@@ -1,5 +1,8 @@
 // Swap BNB -> Tokens
 
+// node swap.js <bnb amount> <token contract>
+// ex. swap.js 0.1 0xe9e7cea3dedca5984780bafc599bd69add087d56  <-- swap 0.1 bnb to busd
+
 const ethers = require('ethers')
 const { JsonRpcProvider } = require("@ethersproject/providers");
 const provider = new JsonRpcProvider('https://binance.ankr.com');
